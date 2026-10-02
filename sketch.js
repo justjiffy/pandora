@@ -5,11 +5,11 @@ let colors = ['#9bcf86','#48e2f7', '#cc936e', "red"];
 function setup(){
   createCanvas(1000, 1000);
   let button = createButton('change background');
-   button.position(0, 100);
-   button.mousePressed(repaint);
-   let button2 = createButton('change body colour');
-   button2.position(150, 100);
-   button2.mousePressed(repaint);
+  button.position(0, 100);
+  button.mousePressed(repaint);
+  let button2 = createButton('change body colour');
+  button2.position(150, 100);
+  button2.mousePressed(repaint);
 }
 
 function draw() {
